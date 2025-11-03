@@ -1,0 +1,9 @@
+# Unity
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Build/
+*.apk
+*.aab
