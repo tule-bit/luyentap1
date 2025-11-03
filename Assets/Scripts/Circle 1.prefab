@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7079095897313890958}
   - component: {fileID: -7601021786508353303}
   - component: {fileID: -8346863206654685}
+  - component: {fileID: 1004282786230135381}
   m_Layer: 0
   m_Name: Circle 1
   m_TagString: Untagged
@@ -149,9 +150,23 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1004282786230135381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9195514939224416622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b47e3904cd318e47943a1c611b7b0f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bullet
+  TimeDestroy: 2
+  Damage: 10
