@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour, IcanTakeDamge
     {
         rb.linearVelocity = Vector2.zero;
         Debug.Log("Enemy Died");
+        Debug.Log("Player Win");
         Destroy(gameObject);
         
     }
